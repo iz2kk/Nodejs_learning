@@ -1,5 +1,9 @@
 import express from "express";
 import viewEngineConfig from "./config/viewEngine";
+import dotenv from 'dotenv'
+dotenv.config();
+
+// server config
 
 const app = express();
 const port = process.env.PORT;
@@ -12,5 +16,5 @@ app.get('/', (req, res) => {
 })
 
 app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
+  console.log(`First learning app running at port: ${port}`)
 })
