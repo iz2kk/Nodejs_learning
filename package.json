@@ -7,5 +7,24 @@
   "devDependencies": {
     "@babel/core": "^7.17.9",
     "@babel/preset-env": "^7.16.11"
-  }
+  },
+  "name": "first_learning",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel ./index.js -D --out-dir dist",
+    "start": "npm run build && node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iz2kk/Nodejs_learning.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iz2kk/Nodejs_learning/issues"
+  },
+  "homepage": "https://github.com/iz2kk/Nodejs_learning#readme",
+  "description": ""
 }
