@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --inspect index.js",
+    "debug": "nodemon --inspect index.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +24,9 @@
   "homepage": "https://github.com/iz2kk/Nodejs_learning#readme",
   "dependencies": {
     "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
   }
 }
