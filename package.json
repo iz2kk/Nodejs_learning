@@ -1,20 +1,11 @@
 {
-  "dependencies": {
-    "@babel/cli": "^7.17.6",
-    "express": "^4.17.3",
-    "express-handlebars": "^6.0.5"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.17.9",
-    "@babel/preset-env": "^7.16.11"
-  },
   "name": "first_learning",
   "version": "1.0.0",
-  "main": "app.js",
+  "description": "",
+  "main": "src/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel ./index.js -D --out-dir dist",
-    "start": "npm run build && node src/app.js"
+    "start": "nodemon --exec node_modules/.bin/babel-node src/main.js"
   },
   "repository": {
     "type": "git",
@@ -26,5 +17,18 @@
     "url": "https://github.com/iz2kk/Nodejs_learning/issues"
   },
   "homepage": "https://github.com/iz2kk/Nodejs_learning#readme",
-  "description": ""
+  "dependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.9",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "express-handlebars": "^6.0.5",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0"
+  }
 }
