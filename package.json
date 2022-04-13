@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/iz2kk/Nodejs_learning/issues"
   },
-  "homepage": "https://github.com/iz2kk/Nodejs_learning#readme"
+  "homepage": "https://github.com/iz2kk/Nodejs_learning#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
 }
