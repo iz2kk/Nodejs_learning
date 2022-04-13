@@ -2,7 +2,7 @@ import express from "express";
 import viewEngineConfig from "./config/viewEngine";
 
 const app = express();
-const port = 80;
+const port = process.env.PORT;
 // engine config
 
 viewEngineConfig(app);
