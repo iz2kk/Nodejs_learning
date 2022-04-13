@@ -1,32 +1,11 @@
 {
-  "name": "first_learning",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon --inspect index.js",
-    "debug": "nodemon --inspect index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/iz2kk/Nodejs_learning.git"
-  },
-  "keywords": [
-    "nodejsm",
-    "iznode"
-  ],
-  "author": "IZIIZI",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/iz2kk/Nodejs_learning/issues"
-  },
-  "homepage": "https://github.com/iz2kk/Nodejs_learning#readme",
   "dependencies": {
-    "express": "^4.17.3"
+    "@babel/cli": "^7.17.6",
+    "express": "^4.17.3",
+    "express-handlebars": "^6.0.5"
   },
   "devDependencies": {
-    "morgan": "^1.10.0",
-    "nodemon": "^2.0.15"
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11"
   }
 }
